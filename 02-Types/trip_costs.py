@@ -3,7 +3,7 @@ fuel_cost = 5.04
 used_fuel = (6.4/100)
 
 x = round(distance * used_fuel * fuel_cost, 2)
-print(f"Koszt wyprawy bedzie wynosil: {x} zl")
+print(f"Koszt wyprawy bedzie wynosil: {x} zl", "\n------------------------")
 
 new_distance = int(input('Podaj ile kilometrów przejechałeś: '))
 new_fuel_cost = float(input("Podaj jak była cena paliwa: "))

@@ -10,7 +10,6 @@ print("4. ",int(input('Wprowadź liczbę całkowitą: ')) % 2 == 0, '\n')
 
 #5.Czy 43 - 13 będzie się równać 11 + 12 ?
 print("5. ",(43 - 13) == (11 + 12), '\n')
-
 #6.Czy dzielenie 129 przez 17 bez reszty wynosi 3?
 print("6. ",(129 // 17) == 3, '\n')
 #7.Czy 247 podzielone przez 5 daje resztę 2?
