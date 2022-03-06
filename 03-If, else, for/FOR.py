@@ -1,5 +1,3 @@
-'''
-
 text = "kot"
 
 for letter in text:
@@ -16,7 +14,7 @@ for i in range(5, 21, 2):
 
 for i in range(3):
     print(i, ":", my_list[i])
-'''
+
 #ex 1:
 print('-'*7, 'ex 1', '-'*7)
 tool = ['buty', 'scyzoryk', 'woda']
@@ -42,4 +40,14 @@ for i in range(1, 11):
 
 #ex 4:
 print('-'*7, 'ex 4', '-'*7)
-
+s = 1
+power = int(input("Podaj liczbę od 0 do 7, a ja policzę silnię: "))
+if power < 8:
+    if power in (0,1):
+        print(power, '! = 1')
+    else:
+        for i in range(2, power+1):
+            s = s*i
+        print (power, '! = ', s)
+else:
+    print("Nieprawidłowa liczba!!")

@@ -19,4 +19,8 @@ while (f<=200):
 
 #ex 2:
 print('-'*7, 'ex 2', '-'*7)
-
+secret_number = 9
+user_number = int(input("Zgadnij liczbę od 0 do 20: "))
+while user_number != secret_number:
+    user_number = (int(input("Błędna liczba, spróbuj ponownie: ")))
+print('Dokłądnie, prawidłowa liczba to', secret_number)
