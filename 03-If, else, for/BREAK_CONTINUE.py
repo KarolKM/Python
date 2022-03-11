@@ -34,3 +34,4 @@ print('W Twoim tekscie występuje', w,'wielkich liter')
 print('W Twoim tekscie występuje', m, 'małych liter')
 print('W twoim tekscie wystepuje', c, 'cyfr')
 print('W twoim tekscie wystepuje', s, 'znaków specjalnych')
+
