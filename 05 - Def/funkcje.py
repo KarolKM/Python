@@ -31,7 +31,7 @@ for i in range(3):
 
 print(zestaw)
 
-while(True):
+while True:
     given_title = input("Podaj tytul do sprawdzenia: ")
     if given_title in zestaw.keys():
         break
